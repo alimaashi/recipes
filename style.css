@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 95vh;
+    display: grid;
+    align-content: center;
+    background-color: #e8f4c8;
+}
+
+main {
+    width: 450px;
+    padding: 30px;
+    margin: 0px auto;
+    background-color: rgb(253, 235, 239);
+    border-radius: 60px;
+    border: 1px dashed rgb(149, 101, 29);
+}
+
+h1 {
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+    margin-bottom: 20px;
+    color: rgb(83, 56, 16);
+}
+
+h1:hover {
+    color: rgb(149, 101, 29);
+    transition-duration: 0.5s;
+}
+
+.recipes-list {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+.recipes-list li {
+    margin-top: 15px;
+}
+
+a:hover {
+    background-color: rgb(247, 198, 208);
+    transition-duration: 0.5s;
+}
